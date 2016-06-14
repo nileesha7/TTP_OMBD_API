@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Finder</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<div id="title_logo">
+		<h1>Movie Finder</h1>
+		</div>
+		<form id="sb-search" class="sb-search">
+			<input id="textBox" type="text" name="q" placeholder="Search here..." />
+			<input id="searchbtn"  class="sb-search-submit"  type="Submit" value="Search"/>
+			<span class="sb-icon-search"></span>
+
+		</form>	
+	</header>
+	<div id="suggestion">
+		<div id="sug-info">
+			<h2 id="h2_sug">Suggestions:</h2>
+			<div id="title-sug"></div>
+			<div id="year-sug"></div>
+			<div id="actors-sug"></div>
+			<div id="awards-sug"></div>
+			<div id="director-sug"></div>
+			<div id="genre-sug"></div>
+			<div id="rated-sug"></div>
+		</div>
+	</div>
+
+	<div id="results2">
+
+
+	<div id="results">
+		<h2 id="h2_result">Results:</h2>
+		<div id="movie-info">
+			<div id="plot"><p></p></div>
+			<div id="year"></div>
+			<div id="actors"></div>
+			<div id="awards"></div>
+			<div id="director"></div>
+			<div id="genre"></div>
+			<div id="rated"></div>
+		</div>
+		<div id="img"></div>
+	</div>
+	</div>
+	
+
+</body>
+</html>
